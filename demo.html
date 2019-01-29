@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Tooltip css</title>
+	<link rel="stylesheet" href="tooltip.css">
+	<style>
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	button {
+		display: inline-block;
+		padding: .3em .6em;
+		margin: 50px;
+		background-color: #0085FF;
+		color: #fff;
+		border: none;
+	}
+	</style>
+</head>
+<body>
+	<button
+		data-tooltip="tooltip top"
+		class="tooltip tooltip--top">
+		top
+	</button>
+	<button
+		data-tooltip="tooltip bottom"
+		class="tooltip tooltip--bottom">
+			bottom
+	</button>
+	<button
+		data-tooltip="tooltip righ"
+		class="tooltip tooltip--right">
+			right
+	</button>
+	<button
+		data-tooltip="tooltip left"
+		class="tooltip tooltip--left">
+			left
+	</button>
+</body>
+</html>
