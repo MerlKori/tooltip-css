@@ -2,7 +2,7 @@
 
 This is a small project to create simple tooltip elements on pure css.
 
-## Usage example
+## Use
 
 1) Connect file tooltip.css
 2) Element for which you need a tooltip, set the class 'tooltip'.
